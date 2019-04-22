@@ -1,0 +1,36 @@
+{
+  "name": "jira-badges",
+  "version": "1.0.0",
+  "description": "A Probot app",
+  "author": "Sam Turrell <sam.turrell@netsells.co.uk>",
+  "license": "ISC",
+  "repository": "https://github.com/netsells/probot-jira-badges.git",
+  "homepage": "https://github.com/netsells/probot-jira-badges",
+  "bugs": "https://github.com/netsells/probot-jira-badges/issues",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "dev": "nodemon",
+    "start": "probot run ./index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "probot": "^7.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "nodemonConfig": {
+    "exec": "npm start",
+    "watch": [
+      ".env",
+      "."
+    ]
+  }
+}
