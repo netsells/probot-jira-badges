@@ -1,5 +1,5 @@
 {
-  "name": "jira-badges",
+  "name": "probot-jira-badges",
   "version": "1.0.0",
   "description": "A Probot app",
   "author": "Sam Turrell <sam.turrell@netsells.co.uk>",
