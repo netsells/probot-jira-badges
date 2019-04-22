@@ -1,19 +1,19 @@
 ![Netsells Logo](https://netsells.github.io/code-standards/assets/img/netsells-logo-with-slogan.88bd561a.jpg)
 
-# Netsells PR Title Validator Bot
+# Netsells JIRA Badges for Pull Requests
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that validates PR titles via a github check in accordance with our organisation guidelines.
+> A GitHub App built with [Probot](https://github.com/probot/probot) that adds badges to Pull Requests to show the status of the branch in JIRA.
 
 ## Setup
 
 ```sh
 # Install dependencies
-npm install
+yarn
 
 # Run the bot
-npm start
+yarn start
 ```
 
 ## License
 
-[ISC](LICENSE) © 2018 Sam Turrell <sam.turrell@netsells.co.uk>
+[ISC](LICENSE) © 2019 Sam Turrell <sam.turrell@netsells.co.uk>
