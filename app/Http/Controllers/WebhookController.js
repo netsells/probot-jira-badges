@@ -60,7 +60,7 @@ class WebhookController {
      * @returns {String}
      */
     generateBadge(issue) {
-        const url = encodeURIComponent(`${ process.env.WEBHOOK_PROXY_URL }/${ issue }`);
+        const url = encodeURIComponent(`${ process.env.APP_URL }/badge/${ issue }`);
         const issueLink = `https://netsells.atlassian.net/browse/${ issue }`;
 
         return `[![JIRA Status](https://img.shields.io/endpoint.svg?url=${ url })](${ issueLink })`;
