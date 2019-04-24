@@ -2,7 +2,7 @@
 
 # Netsells JIRA Badges for Pull Requests
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that adds badges to Pull Requests to show the issue of the branch in JIRA.
+> A GitHub App built with [Probot](https://github.com/probot/probot) that adds badges to Pull Requests to show the status of the branch in JIRA.
 
 ## Setup
 
