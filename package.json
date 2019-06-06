@@ -21,7 +21,7 @@
     "probot": "^7.2.0"
   },
   "devDependencies": {
-    "nodemon": "^1.17.2"
+    "nodemon": "^1.19.1"
   },
   "engines": {
     "node": ">= 8.3.0"
